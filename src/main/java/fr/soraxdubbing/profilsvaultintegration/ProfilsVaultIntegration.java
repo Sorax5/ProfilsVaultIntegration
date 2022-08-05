@@ -28,6 +28,8 @@ public final class ProfilsVaultIntegration extends JavaPlugin {
         setupPermissions();
         setupChat();
 
+        getServer().getPluginManager().registerEvents(new EventRegister(), this);
+
         INSTANCE = this;
 
     }
