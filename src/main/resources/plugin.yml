@@ -1,0 +1,6 @@
+name: ProfilsVaultIntegration
+version: '${project.version}'
+main: fr.soraxdubbing.profilsvaultintegration.ProfilsVaultIntegration
+depend: [ Vault ]
+authors: [ SoraxDubbing ]
+description: Integration de Vault avec l'API ProfilsManagerCore
